@@ -14,6 +14,7 @@
     "@unpic/astro": "^0.0.35",
     "astro": "^3.5.5",
     "chalkstream": "^0.0.4",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "video.js": "^8.6.1"
   }
 }
