@@ -33,7 +33,7 @@ import { Icon } from "astro-icon";
           layout="fixed"
           cdn="netlify"
         />
-        <div>Chalkstream</div>
+        <a href="https://github.com/ascorbic/chalkstream">Chalkstream</a>
       </h1>
       <div id="videowrap">
         <video id="video" autoplay muted></video>
@@ -206,6 +206,12 @@ import { Icon } from "astro-icon";
     display: inline-block;
     margin-right: 16px;
   }
+
+  h1 a:link {
+    color: inherit;
+    text-decoration: none;
+  }
+
   .go-live {
     background: linear-gradient(145deg, #a7dbd8, #89c4f4);
     border: none;
